@@ -16,3 +16,4 @@ log/*.log
 .yardoc
 _yardoc
 doc/
+public/assets
