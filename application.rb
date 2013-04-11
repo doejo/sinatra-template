@@ -13,15 +13,12 @@ assets do
   serve '/css',    from: 'app/css'
   serve '/images', from: 'app/images'
 
-  #js_compression  :uglify
-  #css_compression :sass
-
-  css :app, '/css/application.css', [
+  css :app, [
     '/css/bootstrap.min.css',
     '/css/application.css',
   ]
 
-  js :app, '/js/application.js', [
+  js :app, [
     'http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.js',
     '/js/bootstrap.min.js',
     '/js/application.js'
