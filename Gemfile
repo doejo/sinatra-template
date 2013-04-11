@@ -17,7 +17,7 @@ group :development do
   gem 'shotgun'
 end
 
-group :test do
+group :development, :test do
   gem 'rspec'
   gem 'rack-test'
   gem 'fabrication'
