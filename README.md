@@ -1,6 +1,6 @@
 # Sinatra Application Template
 
-Basic sinatra application to get you started
+Basic sinatra application to get you started. Useful for rapid prototyping.
 
 ## Overview
 
