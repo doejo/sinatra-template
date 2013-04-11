@@ -13,8 +13,8 @@ assets do
   serve '/css',    from: 'app/css'
   serve '/images', from: 'app/images'
 
-  js_compression  :uglify
-  css_compression :sass
+  #js_compression  :uglify
+  #css_compression :sass
 
   css :app, '/css/application.css', [
     '/css/bootstrap.min.css',
