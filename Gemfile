@@ -11,6 +11,7 @@ gem 'rake'
 gem 'thin'
 gem 'sass'
 gem 'uglifier'
+gem 'foreman'
 
 group :development do
   gem 'shotgun'
