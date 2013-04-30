@@ -19,7 +19,7 @@ assets do
   ]
 
   js :app, [
-    'http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.js',
+    '/jquery.js',
     '/js/bootstrap.min.js',
     '/js/application.js'
   ]
