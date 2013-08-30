@@ -4,14 +4,15 @@ require 'sinatra'
 require 'sinatra/assetpack'
 
 configure do
-  set :root, File.dirname(__FILE__)
-  set :views, './views'
+  set :root,   File.dirname(__FILE__)
+  set :public_dir, "./public"
+  set :views,  "./views"
 end
 
 assets do
-  serve '/js',     from: 'app/js'
-  serve '/css',    from: 'app/css'
-  serve '/images', from: 'app/images'
+  serve '/js',     from: 'public/js'
+  serve '/css',    from: 'public/css'
+  serve '/images', from: 'public/images'
 
   css :app, [
     '/css/bootstrap.min.css',
